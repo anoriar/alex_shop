@@ -18,10 +18,7 @@ if(!isset($arParams["CACHE_TIME"]))
 	$arParams["CACHE_TIME"] = 180;
 
 
-//echo '<pre>';
-//var_dump($arParams['IBLOCK_ID']);
-//echo '</pre>';
-$arParams['IBLOCK_ID'] = intval($arParams['IBLOCK_ID']);
+$arParams['IBLOCK_ID'] = 1;
 if (filter_input(INPUT_POST, 'add')) {
     $name = filter_input(INPUT_POST, 'name');
     $text = filter_input(INPUT_POST, 'text');
