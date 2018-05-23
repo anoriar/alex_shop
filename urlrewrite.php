@@ -40,6 +40,14 @@ $arUrlRewrite=array (
     'PATH' => '/personal/order/index.php',
     'SORT' => 100,
   ),
+  9 => 
+  array (
+    'CONDITION' => '#^/my-catalog/#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/my-catalog/index.php',
+    'SORT' => 100,
+  ),
   7 => 
   array (
     'CONDITION' => '#^/personal/#',

@@ -13,6 +13,13 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
+	),
+	Array(
+		"my_catalog", 
+		"/my-catalog/", 
+		Array(), 
+		Array(), 
+		"" 
 	)
 );
 ?>
